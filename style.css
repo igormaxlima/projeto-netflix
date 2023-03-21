@@ -16,7 +16,7 @@ header {
 	padding-top: 30px
 }
 
-.logo {
+.logo, .logo-principal{
 	width:15%;
 }
 
@@ -129,7 +129,6 @@ main > div {
 .gif-download {
 	width: 48%;
 	float: left;
-	border-width: 
 
 }
 
@@ -257,6 +256,61 @@ button {
 	display: inline-block;
 }
 
+@media screen and (max-width:414px) {
+	.caixa-login {
+		width: 75%;
+		height: 44%;
+	}
+	.logo {
+		width: 40%;
+		position: relative;
+		left: 90px;
+	}
+	footer p {
+		padding: 3em 1em;
+	}
+	.listas-link {
+		padding: 2em;
+	}
+	img + nav a {
+		position: relative;
+		left: 240px;
+		bottom: 26px;
+	}
+	.principal h1 {
+		font-size: 58px;
+	}
+	.tv, .baixar,.assista {
+		padding: 1em;
+		margin-left: 5%;
+	}
+	.assista h3, .assista p {
+		position: static;
+	}
+	.logo-principal {
+		width: 40%;
+	}
+	.principal {
+		margin: 17% 0;
+		padding: 1em;
+	}
+	.gif, .gif-esquerda {
+		width: 100%;
+	}
+	.tv h2, .baixar h4, .assista h3 {
+		text-align: center;
+		width: auto;
+		margin: auto;
+		margin-top: 75%;
+	}
+	.tv p, .baixar p, .assista p {
+		font-size: 20px ;
+		width: auto;
+		text-align: center;
+		margin: 5% 0 10% 0;
+	}
+}
+
 @media screen and (min-width: 2560px) {
 	header {
 		height: 53em;
@@ -292,4 +346,5 @@ button {
 	}
 	.baixar > h4 {
 		margin-top: 8%;
+}
 }
