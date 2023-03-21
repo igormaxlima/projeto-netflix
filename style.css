@@ -272,6 +272,13 @@ button {
 	.listas-link {
 		padding: 2em;
 	}
+	input {
+		font-size: 18px;
+	}
+	button {
+		font-size: 20px;
+		padding: 4% 37%;
+	}
 	img + nav a {
 		position: relative;
 		left: 240px;
@@ -289,6 +296,7 @@ button {
 	}
 	.logo-principal {
 		width: 40%;
+		position: static;
 	}
 	.principal {
 		margin: 17% 0;
