@@ -1,0 +1,295 @@
+body{
+	font-family: 'Gotham', sans-serif;
+}
+
+/*CSS do cabeçalho*/
+header {
+	background: url("background.png");
+	color: white;
+	height: 700px;
+	box-shadow: inset 0 0 150px 100px black;
+}
+
+.espacamento {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 30px
+}
+
+.logo {
+	width:15%;
+}
+
+img + nav a, p + nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	background-color: red;
+	border: 6px solid red;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+img + nav a:hover, p + nav a:hover {
+	cursor: pointer;
+	transition: 1s all;
+	background-color: #8B0000;
+	border: 10px solid #8B0000;
+}
+
+img + nav a {
+	vertical-align: top;
+	width: 8%;
+	font-family: 'Gotham', sans-serif;
+	position: relative;
+    left: 1000px;
+    bottom: 34px;
+}
+
+.principal {
+	margin-top:10%;
+	line-height: 1.2;
+	text-align: center;
+	font-family: 'Gotham', sans-serif;
+}
+
+.principal h1 {
+	color: white;
+	font-size: 76px;
+	font-weight: bold;
+	text-shadow: 1px 1px black
+}
+
+.principal p {
+	font-size: 28px;
+	margin-bottom: 30px;
+	text-shadow: 1px 1px black
+}
+
+/*CSS do main*/
+
+main {
+	background:#181818;
+	font-family: 'Gotham', sans-serif;
+
+}
+
+main > div {
+	color: white;
+	display: inline-block;
+}
+
+.tv, .baixar, .assista {
+	display: inline-block;
+	width: 80%;
+	margin-left: 10%;
+	padding: 3em;
+
+}
+
+.tv h2, .baixar h4, .assista h3 {
+	margin-top: 80px;
+	font-size: 50px;
+	font-weight: bold;
+	width: 40%
+}
+
+.tv p, .baixar p, .assista p {
+	font-size: 23px;
+	margin-bottom: 30px;
+	width: 40%;
+	line-height:1.2;
+	margin: 10px 0;
+}
+
+.assista h3, .assista p {
+	position: relative;
+	left: 550px;
+	bottom: 200px;
+	margin-left: 5%;
+}
+
+.gif {
+	width: 48%;
+	float: right;
+
+}
+
+.gif-esquerda {
+	width: 48%;
+	float: left;
+	padding-top: 5%
+}
+
+.divisao-visual {
+	padding:5px;
+	background: #303030;
+}
+
+.gif-download {
+	width: 48%;
+	float: left;
+	border-width: 
+
+}
+
+.baixar > h4 {
+	margin-top: 10%;
+}
+
+/*CSS do rodapé*/
+footer{
+	background:#080808;
+}
+
+.listas-link {
+	width: 80%;
+	margin: 0 auto;
+	padding: 3em;
+}
+
+.links {
+	text-decoration: none;
+	font-family: 'Gotham', sans-serif;
+}
+
+.links:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+nav li {
+	display: inline-block;
+	margin: 3% 4% 0% 0;
+}
+
+footer > p, a {
+	color: #888888;
+	font-family: 'Gotham', sans-serif;
+}
+
+footer p{
+	width: 80%;
+	margin: 0 auto;
+	padding: 3em 3em 1em 3em;
+}
+
+form + p {
+	font-size: 13px;
+	color: #E8E8E8;
+}
+
+select {
+	font-family: 'Gotham', sans-serif;
+	margin-left: 10%;
+	padding: 1em;
+	background-color: #080808;
+	color: #888888 ;
+	border-radius: 3px;
+}
+
+/*CSS do Login*/
+body {
+	background: url("background.png");
+	height: 1000px;
+	box-shadow: inset 0 0 800px 100px black;
+}
+
+.caixa-login {
+	width: 33%;
+	height: 50%;
+	background: rgba(0, 0, 0, 0.7);
+	display: grid;
+	place-items: center;
+	font-family: 'Gotham', sans-serif;
+	margin: 7% auto;
+	box-sizing: 10px red;
+}
+
+input {
+	font-family: 'Gotham', sans-serif;
+	font-size: 15px;
+	display: block;
+	background: #2e2e2e;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 4%;
+	padding: 10px
+}
+
+.checkbox {
+	display: inline-block;
+	margin-right: 4px;
+}
+
+p a {
+	margin-left: 10px;
+	text-decoration: none
+}
+
+label {
+	color:  #888888;
+}
+
+p a:hover {
+	text-decoration: underline;
+} 
+
+.caixa-login > h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 38px;
+	margin-bottom: 1%
+}
+
+button {
+	font-family: 'Gotham', sans-serif;
+	font-size: 15px;
+	color: white;
+	background: red;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 82px;
+	margin-top: 30px;
+}
+
+.caixa-login > p {
+	display: inline-block;
+}
+
+@media screen and (min-width: 2560px) {
+	header {
+		height: 53em;
+	}
+	.principal {
+		margin: 8% 0 0 0;
+	}
+	img + nav a {
+		position: relative;
+		left: 1747px;
+		bottom: 46px;
+	}
+	.gif {
+		width: 35%;
+	}
+	.tv h2, .baixar h4, .assista h3 {
+		font-size: 73px;
+	}
+	.tv p, .baixar p, .assista p {
+		font-size: 30px;
+	}
+	.tv, .baixar, .assista {
+		margin-left:12%;
+	}
+	.gif-esquerda{
+		width: 35%;
+	}
+
+	.assista h3, .assista p {
+		position: relative;
+   	 left: 1000px;
+   	 bottom: 282px
+	}
+	.baixar > h4 {
+		margin-top: 8%;
+}
